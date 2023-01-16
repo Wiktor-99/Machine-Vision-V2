@@ -99,7 +99,7 @@ def send_end_sign(pipe):
 
 
 def main():
-    path = "/home/rpi/Desktop/SCARA/build-WDS_Wizualizacja3D-Desktop-Debug/pipe"
+    path = "/home/rpi/Machine-Vision/SCARA/build-WDS_Wizualizacja3D-Desktop-Debug/pipe"
     mode = 0o600
 
     if not os.path.exists(path):
